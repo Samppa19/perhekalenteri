@@ -20,7 +20,7 @@ body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #808080;git add .
+  background-color: #808080;
 }
 
 h1 {
@@ -85,7 +85,7 @@ tr {
   text-transform: none;
 }
 
-.footer {
+footer {
   text-align: right;
-  font-size: 70%;
+  font-size: 80%;
 }
