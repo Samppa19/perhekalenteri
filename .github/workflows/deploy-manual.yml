@@ -16,13 +16,6 @@ jobs:
         with:
           php-version: 7.4
 
-      - name: Tulosta juttui
-        run: |
-          echo "PRIVATE-KEY:"
-          echo ${{ secrets.PRIVATE_KEY }}
-          echo "KNOWN-HOSTS:"
-          echo ${{ secrets.KNOWN_HOSTS }}
-
       - name: Deploy
         uses: deployphp/action@master
         with:
