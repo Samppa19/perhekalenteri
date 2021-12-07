@@ -20,7 +20,7 @@ body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #808080;
+  background-color: #808080;git add .
 }
 
 h1 {
