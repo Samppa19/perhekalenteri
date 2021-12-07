@@ -20,11 +20,9 @@ set('shared_dirs', []);
 set('writable_dirs', []);
 
 
-// Hosts
 host('neutroni.hayo.fi')
     ->user('shuhtala')
-    ->set('deploy_path', '~/public_html/{{application}}');    
-    
+    ->set('deploy_path', '~/public_html/{{application}}');
 
 // Tasks
 
